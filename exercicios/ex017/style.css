@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+    @import url();
+
+    body {
+        font-family: 'Work Sans';
+        /* 
+        Medidas absolutas
+        cm, mm, in, "px", pt, pc
+          polegadas, pixels, ponto, paica
+
+          Medidas Relativas
+        "em", ex, rem, vw, vh, %
+        Relativo ao tamanho da letra M 
+        16px geralmente = 1em
+
+        Usar px ou em, recomendação da w3c
+        */
+        font-size: 1em;
+    
+    }
+
+    h1 {
+        /*
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 3em;
+        font-family: 'Courier New', Courier, monospace;
+        
+        shorthand font
+        */
+        font: italic bolder 3em Arial, sans-serif;
+    }
+   
