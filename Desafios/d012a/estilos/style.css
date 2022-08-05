@@ -86,6 +86,7 @@ section.imagem {
     background-color: rgba(0, 0, 0, 0.514);
     display: block;
     color: white;
+    max-height: 500px;
 }
 
 section#img01 {
