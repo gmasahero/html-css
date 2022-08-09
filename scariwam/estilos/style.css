@@ -59,7 +59,11 @@
 
 html {
     background-color: var(--cor3);
-    
+    background-image: url('../imagens/fundotela.jpg');
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
 }
 
 body {
