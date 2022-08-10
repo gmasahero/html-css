@@ -103,7 +103,7 @@ header > img {
 menu {
     background-color: var(--cor1);
     margin: auto;
-    box-shadow: 1px 14px 10px rgba(0, 0, 0, 0.158)
+    box-shadow: 1px 14px 10px rgba(0, 0, 0, 0.158);
 }
 
 menu li {
@@ -143,7 +143,6 @@ main::-webkit-scrollbar {
 
 .email, .fone {
     text-decoration: none;
-    padding: 10px;
 }
 
 .fone:hover, .email:hover {
