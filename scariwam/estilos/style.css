@@ -28,7 +28,7 @@
         
     }
     main {
-        padding-top: 25vh;
+        padding-top: 35vh;
         min-width: 300px;
         max-width: 100vw;
         padding-bottom: 30vh;
@@ -43,12 +43,14 @@
         position: fixed;
         top: 219px;
         display: inline-block;
+        font-size: 0.9em;
+        width: 100%;
     }
+
 
     footer {
         width: 100vw;
         position: fixed;
-        
         bottom:0;
 
     }
@@ -108,7 +110,8 @@ menu {
 
 menu li {
     display: inline-block;
-    padding: 10px;
+    padding: 6.1px;
+    
 }
 
 menu a {
@@ -136,17 +139,35 @@ main {
     scrollbar-width: none;
 }
 
+main h1 {
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+main h2 {
+    padding: 30px;
+}
+
+main p {
+    padding: 20px;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1.9vh;
+}
+
+
 main::-webkit-scrollbar {
     display: none;
 }
 
 
-.email, .fone {
+.email, .fone, .endereco {
     text-decoration: none;
 }
 
 .fone:hover, .email:hover {
     text-decoration: underline;
+    font-style: normal;
 }
 
 .fone::before {
@@ -157,29 +178,10 @@ main::-webkit-scrollbar {
     content: "\1F4E7  ";
 }
 
-address {
-    font-style: normal;
-}
-
-address::before {
+.endereco::before {
     content: "\1F3E2  ";
 }
 
-h1 {
-    padding: 20px;
-    font-size: 3.2vh;
-}
-
-h2 {
-    padding: 30px;
-}
-
-main p, address {
-    padding: 20px;
-    text-indent: 30px;
-    line-height: 2em;
-    font-size: 1.9vh;
-}
 
 section.imagebox {
     max-width: 500px;
@@ -209,6 +211,7 @@ section.produtos {
 section.produtos img {
     padding: 10px;
     max-height: 180px;
+    max-width: 200px;
 }
 
 section.produtos figcaption {
@@ -229,7 +232,7 @@ footer {
     color: var(--cor2);
     border-radius: 0 0 10px 10px;
     margin: auto;
-    box-shadow: 1px 14px 10px rgba(0, 0, 0, 0.151)
+    box-shadow: 1px 14px 10px rgba(0, 0, 0, 0.151);
     overflow: hidden;
 }
 footer p {
